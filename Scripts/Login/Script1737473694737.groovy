@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.delay(2)
+
+WebUI.navigateToUrl('https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/')
+
+WebUI.setText(findTestObject('Login_Page/Username'), Username)
+
+WebUI.setText(findTestObject('Login_Page/Password'), Password)
+
+WebUI.click(findTestObject('Login_Page/Log in'))
+
+WebUI.closeBrowser()
+

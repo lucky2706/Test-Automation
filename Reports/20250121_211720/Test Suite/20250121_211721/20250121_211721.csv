@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite,Chrome 131.0.0.0,,,21-01-2025 21:17:27,21-01-2025 21:17:41,14.124s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 131.0.0.0,,,21-01-2025 21:17:28,21-01-2025 21:17:41,13.965s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,21-01-2025 21:17:28,21-01-2025 21:17:31,3.190s,PASSED
+delay(2),Chrome 131.0.0.0,,,21-01-2025 21:17:31,21-01-2025 21:17:33,2.054s,PASSED
+"navigateToUrl(""https://sftd1--testingcoe.sandbox.my.site.com/CRMITCommunity/s/"")",Chrome 131.0.0.0,,,21-01-2025 21:17:33,21-01-2025 21:17:39,5.632s,PASSED
+"setText(findTestObject(""Login_Page/Username""), Username)",Chrome 131.0.0.0,,,21-01-2025 21:17:39,21-01-2025 21:17:39,0.764s,PASSED
+"setText(findTestObject(""Login_Page/Password""), Password)",Chrome 131.0.0.0,,,21-01-2025 21:17:39,21-01-2025 21:17:40,0.598s,PASSED
+"click(findTestObject(""Login_Page/Log in""))",Chrome 131.0.0.0,,,21-01-2025 21:17:40,21-01-2025 21:17:40,0.308s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,21-01-2025 21:17:40,21-01-2025 21:17:41,1.178s,PASSED

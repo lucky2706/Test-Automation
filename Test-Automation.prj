@@ -6,11 +6,12 @@
    <UUID>3fa55d09-8dd6-49a3-8e50-600ce4e2272d</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>9.7.2</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.7.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\lakshmanan.harikrish\git\Test-Automation\Test-Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
